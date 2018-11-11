@@ -6,18 +6,7 @@
 	<packaging>war</packaging>
 	<version>1.0.0</version>
 	<name>DevopsDEMO</name>
-	<build>
-  	<pluginManagement>
-	<plugins>
-      	<plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.5.0.1254</version>
-      	</plugin>
-    	</plugins>
-  	</pluginManagement>
-	</build>
-	
+
 	<dependencies>
 	<dependency>
 			<groupId>javax.servlet</groupId>
@@ -39,7 +28,17 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>devops</finalName>
 		
+		
+		<finalName>devops</finalName>
+  	<pluginManagement>
+	<plugins>
+      	<plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.5.0.1254</version>
+      	</plugin>
+    	</plugins>
+  	</pluginManagement>
 	</build>
 </project>
