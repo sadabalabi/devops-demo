@@ -6,6 +6,7 @@
 	<packaging>war</packaging>
 	<version>1.0.0</version>
 	<name>DevopsDEMO</name>
+
 	<dependencies>
 	<dependency>
 			<groupId>javax.servlet</groupId>
@@ -27,7 +28,8 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>devops</finalName>
 		
+		<finalName>devops</finalName>
+
 	</build>
 </project>
